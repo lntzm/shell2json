@@ -100,3 +100,5 @@ class Configuration:
 if __name__ == '__main__':
     CUB_GZSL = Configuration('./CUB_GZSL.sh')
     CUB_GZSL.read()
+    config1 = CUB_GZSL.exportJson()
+    print(config1)
