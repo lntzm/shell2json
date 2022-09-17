@@ -1,4 +1,6 @@
 # shell2json
+**A very LIMITED script, just for using on my own.**
+
 A demo which tramsforms args in a deep learning shell script to launch.json of vscode for debugging.
 
 ## Introduction
@@ -23,8 +25,3 @@ class Configuration is used to generate a config.
     ]
 }
 ```
-
-## Planning
-- Now generate content in key `configuration` of `launch.json` only.
-- Auto exporting not supported now, planning in future
-
